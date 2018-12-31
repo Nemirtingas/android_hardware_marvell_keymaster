@@ -43,7 +43,7 @@
 #include <string.h>
 
 TEEC_UUID teec_uuid;
-char byte_1D05[16];
+char byte_1D05[16] = {0};
 
 struct struc_v9
 {
